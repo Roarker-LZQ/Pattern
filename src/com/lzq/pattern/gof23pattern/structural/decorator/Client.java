@@ -8,7 +8,7 @@ public class Client {
         ConcreteComponent c = new ConcreteComponent();
         ConcreteDecoratorA concreteDecoratorA = new ConcreteDecoratorA(c);
         concreteDecoratorA.operation();
-        System.out.println("=============");
+        System.out.println("==================");
         Decorator concreteDecoratorB = new ConcreteDecoratorB(c);
         concreteDecoratorB.operation();
         System.out.println("=============");
